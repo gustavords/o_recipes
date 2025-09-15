@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.index_body {
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    h1 {
+        color: whitesmoke;
+    }
+
+    background-image: url("/pictures/open_mouth_illustration.png");
+    background-size: 80% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.recipes_list {
+
+    ul {
+        list-style: none;
+
+        li>a {
+            text-decoration: none;
+        }
+
+        li>a:link {
+            color: whitesmoke;
+        }
+
+        li>a:visited {
+            color: palevioletred;
+        }
+
+        li>a:hover {
+            color: chartreuse;
+        }
+    }
+}
